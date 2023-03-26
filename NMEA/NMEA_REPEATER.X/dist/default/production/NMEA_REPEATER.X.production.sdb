@@ -1,0 +1,104 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"12 C:\Users\AJAY\Documents\PROGRAMS\PIC\PIC_16\MPLABX\PROJECT\NMEA\NMEA_REPEATER.X\newmain.c
+[v _uart_init uart_init `(v  1 e 1 0 ]
+"19
+[v _receive receive `(uc  1 e 1 0 ]
+"26
+[v _transmit transmit `(v  1 e 1 0 ]
+"32
+[v _str_transmit str_transmit `(v  1 e 1 0 ]
+"42
+[v _str_receive str_receive `(i  1 e 2 0 ]
+"107
+[v _main main `(v  1 e 1 0 ]
+"962 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f877a.h
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"1057
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1064
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1997
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"2078
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2571
+[v _RB0 RB0 `VEb  1 e 0 @48 ]
+"2603
+[v _RC6 RC6 `VEb  1 e 0 @62 ]
+"2605
+[v _RC7 RC7 `VEb  1 e 0 @63 ]
+"2617
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2745
+[v _TRISB0 TRISB0 `VEb  1 e 0 @1072 ]
+"2773
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2775
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"2799
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"107 C:\Users\AJAY\Documents\PROGRAMS\PIC\PIC_16\MPLABX\PROJECT\NMEA\NMEA_REPEATER.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"133
+} 0
+"12
+[v _uart_init uart_init `(v  1 e 1 0 ]
+{
+"17
+} 0
+"42
+[v _str_receive str_receive `(i  1 e 2 0 ]
+{
+"44
+[v str_receive@data data `[32]uc  1 a 32 0 ]
+[v str_receive@lon lon `[11]uc  1 a 11 39 ]
+[v str_receive@lat lat `[10]uc  1 a 10 50 ]
+[v str_receive@g_check g_check `[7]uc  1 a 7 32 ]
+"45
+[v str_receive@latcount latcount `i  1 a 2 70 ]
+[v str_receive@loncount loncount `i  1 a 2 68 ]
+[v str_receive@count count `i  1 a 2 66 ]
+[v str_receive@lat_check lat_check `i  1 a 2 64 ]
+[v str_receive@flag flag `i  1 a 2 62 ]
+[v str_receive@i i `i  1 a 2 60 ]
+"44
+[v str_receive@c c `uc  1 a 1 73 ]
+[v str_receive@full_indx full_indx `uc  1 a 1 72 ]
+[v str_receive@F1194 F1194 `[7]uc  1 s 7 F1194 ]
+"104
+} 0
+"32
+[v _str_transmit str_transmit `(v  1 e 1 0 ]
+{
+[v str_transmit@p p `*.26uc  1 p 2 1 ]
+"40
+} 0
+"26
+[v _transmit transmit `(v  1 e 1 0 ]
+{
+[v transmit@b b `uc  1 a 1 wreg ]
+[v transmit@b b `uc  1 a 1 wreg ]
+"28
+[v transmit@b b `uc  1 a 1 0 ]
+"30
+} 0
+"19
+[v _receive receive `(uc  1 e 1 0 ]
+{
+"22
+[v receive@b b `uc  1 a 1 1 ]
+"24
+} 0
